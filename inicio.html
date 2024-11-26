@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <! -- Irina Sans -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+            rel="stylesheet">
+
+        <! --Protest Guerrilla -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link
+                href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Protest+Guerrilla&display=swap"
+                rel="stylesheet">
+
+            <title>Acordado</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <h1> ACORDADO </h1>
+            <img src="images/passo-0-homem-dormindo-na-cama.png" width="500" height="300">
+            <p>Você acorda em um quarto sem reconhecer muito bem o ambiente à sua volta.</p>
+            <p>Você sente uma dor latejante na cabeça e não consegue se lembrar muito bem do que aconteceu na noite
+                anterior.</p>
+            <p> Você olha em volta e percebe que está:</p>
+
+            <button class="btn-proximo" data-proximo="1">Em um hotel </button>
+            <button class="btn-proximo" data-proximo="2">Em seu quarto </button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <img src="images/passo1-hotel.jpg" width="700" height="500">
+            <p>Olhando à sua volta, você percebe que está em uma suíte de um luxuoso hotel. </p>
+            <p>À sua frente uma escrivaninha com um notebook fechado e um cartão, à direita uma janela com grandes
+                cortinas que vão até o chão. </p>
+            <p> Ao lado esquerdo da escrivaninha há uma porta que leva ao banheiro da suíte. </p>
+            <p>De repente, o telefone toca. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="3">Atende o telefone</button>
+            <button class="btn-proximo" data-proximo="4">Não atende o telefone</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <img src="images/passo-2.jpg" width="700" height="500">
+            <p>Olhando à sua volta, você percebe que está em seu quarto. </p>
+            <p>As janelas estão fechadas, a porta do quarto entreaberta. Parece ser noite, mas há uma luz acesa do lado
+                de fora.</p>
+            <p> Você escuta seu priminho te chamar. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="18">Levanta e vai ver quem está chamando</button>
+            <button class="btn-proximo" data-proximo="19">Tenta dormir novamente</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <img src="images/passo-3-maleta.jpg" width="700" height="500">
+            <p>Você fala “Alô” e a voz grave de um homem de meia idade diz: </p>
+            <p>“Parece que a noite de ontem foi realmente
+                boa!
+                Mas espero que esteja no saguão do hotel com a maleta em meia hora!
+                Não me faça subir até aí e pegar”.</p>
+            <p> Mesmo sem entender muito bem, uma sensação de medo se estabelece e
+                você
+                começa a procurar a tal maleta pelo quarto. </p>
+            <p>O seu tempo está acabando, então você começa a abrir todas as portas e gavetas que encontra no quarto,
+                até
+                que finalmente: A maleta! O que você faz agora?
+            </p>
+            <button class="btn-proximo" data-proximo="5">Pega a maleta e vai para o saguão </button>
+            <button class="btn-proximo" data-proximo="6">Não resiste a curiosidade e abre a maleta para ver o que tem
+                dentro
+            </button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="images/passo-4-ducha.jpg" width="700" height="500">
+            <p>Ainda se sentindo um pouco atordoado, você resolve deixar o telefone tocar e vai até o banheiro tomar um
+                banho. </p>
+            <p> A pressão do chuveiro é ótima e você consegue achar a temperatura perfeita para seu banho. O sabonete
+                fornecido pelo hotel é muito cheiroso e faz uma espuma macia. </p>
+            <p>Você se sente completamente relaxado até que, em um movimento súbito, a porta do box se abre e tudo
+                escurece. </p>
+            <p>Você foi encapuzado e está sendo arrastado pelo banheiro. Neste momento, você:
+
+            </p>
+            <button class="btn-proximo" data-proximo="7">Tenta lutar</button>
+            <button class="btn-proximo" data-proximo="8">Diz que vai cooperar
+            </button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="images/passo-5-Elevator.jpg" width="700" height="500">
+            <p> Você acha melhor entregar de uma vez a maleta.
+                Você pega o cartão, que imagina ser a chave do quarto, e sai. O elevador fica no final de um estranho
+                corredor. Você entra no elevador, aperta o botão T e as portas se fecham.</p>
+            <button class="btn-proximo" data-proximo="9">Continuar</button>
+
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="images/passo-6-pendrive.jpg" width="700" height="500">
+            <p>Há um pen drive dentro da maleta. Você:</p>
+
+            <button class="btn-proximo" data-proximo="5">Fecha a maleta e vai para o saguão</button>
+            <button class="btn-proximo" data-proximo="10">Liga o notebook para ver o que há no pendrive</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="images/passo-7-arma.jpg" width="700" height="500">
+            <p> Você começa a se debater e chutar tudo à sua volta, o que faz com que seus captores comecem a se
+                irritar. Você leva um chute na boca do estômago e três socos na cara.</p>
+            <p> “Agora já chega! Entregue a maleta agora ou você morre!” Seu capuz é removido e o cano de uma arma está
+                apontada para seu rosto! Você:</p>
+
+            <button class="btn-proximo" data-proximo="11"> Diz que não sabe do que estão falando </button>
+            <button class="btn-proximo" data-proximo="12"> Finge que sabe do que estão falando e procura a maleta
+            </button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="images/passo-8-shower.jpg" width="700" height="500">
+            <p>Ao se mostrar disposto a cooperar, jogam um roupão em cima de você e retiram seu capuz com um puxão. Você
+                o veste depressa enquanto um dos dois homens armados em sua frente diz:</p>
+            <p> “Não piore as coisas para você. Entregue a maleta agora e todo mundo sai ganhando.”</p>
+            <button class="btn-proximo" data-proximo="11"> Diz que não sabe do que estão falando </button>
+            <button class="btn-proximo" data-proximo="12"> Finge que sabe do que estão falando e procura a maleta
+            </button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="images/passo-9-homem-sorrindo.jpg" width="700" height="500">
+            <p>Chegando no térreo você se dirige ao saguão do hotel e fica cada vez mais ansioso. Não faz ideia de quem
+                deveria procurar, mas um grupo de homens muito mal encarados acena para você. </p>
+            <p> "Achei que fosse precisar te buscar lá em cima! Hahaha", disse um homem calvo, com um rosto horrível.
+                Você dá um sorriso amarelo e entrega a maleta para o homem. Ele a recebe com ansiedade. O homem abre a
+                maleta e seu rosto se retorce num sorriso grotesco.
+            </p>
+            <p> "Muito bem! Aqui está seu pagamento. É sempre um prazer fazer negócios com você".
+                Você fica com uma outra maleta, os homens se levantam e saem do hotel. Sem entender muito bem o que
+                aconteceu, mas sentindo um alívio imenso, você:
+            </p>
+            <button class="btn-proximo" data-proximo="14">Deixa a maleta para trás e volta para o quarto</button>
+            <button class="btn-proximo" data-proximo="15">Volta para o quarto com a maleta</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="images/passo-10-flashdrive.jpg" width="700" height="500">
+            <p>Você liga o notebook que está sobre a escrivaninha e abre o pen drive. São muitos arquivos, mas pelo que
+                consegue entender, eles falam sobre bombas atômicas.</p>
+            <p> A porta é aberta com um estrondo e seu quarto é invadido por cinco homens armados. </p>
+
+            <button class="btn-proximo" data-proximo="11"> Continuar </button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="images/voce-morreu-1.png" width="500" height="300">
+
+            <p>Um deles grita: “Seu trabalho era entregar a maleta! Mais nada! Por que ninguém faz seu trabalho
+                direito?!” </p>
+            <p> Antes que você possa responder, três tiros são disparados. Você cai no chão e - sem entender direito o
+                que aconteceu - seu fim chega.</p>
+            <p> Você morreu.</p>
+
+
+            <button class="btn-proximo" data-proximo="17">Créditos</button>
+            <button class="btn-proximo" data-proximo="0">Voltar ao início</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="images/passo-3-maleta.jpg" width="700" height="500">
+            <p>Você não faz a menor ideia de que droga de maleta é essa, mas começa a procurar desesperadamente pelo
+                quarto do hotel. As armas não param de apontar para você por nenhum momento. </p>
+            <p> Você vasculha todas as portas e gavetas do quarto, seu coração bate cada vez mais rápido, até que
+                finalmente: A maleta! </p>
+            <button class="btn-proximo" data-proximo="13">Continuar</button>
+
+        </div>
+
+        <div class="passo" id="passo-13">
+            <img src="images/passo-9-homem-sorrindo.jpg" width="700" height="500">
+            <p> Um homem calvo, com um rosto horrível entra em seu quarto. Você entrega a maleta a ele com ansiedade. O
+                homem abre a maleta e seu rosto se retorce num sorriso grotesco. A maleta se fecha. </p>
+            <p> "Muito bem! Aqui está seu pagamento. É sempre um prazer fazer negócios com você". </p>
+            <p> Você recebe outra maleta, os homens saem do quarto. Sem entender muito bem o que aconteceu, mas sentindo
+                um alívio imenso, você: </p>
+            <button class="btn-proximo" data-proximo="14">Vai embora e deixa a maleta para trás </button>
+            <button class="btn-proximo" data-proximo="15">Abre a maleta</button>
+        </div>
+
+        <div class="passo" id="passo-14">
+            <img src="images/bomb.jpg" width="700" height="500">
+            <p> Você vai embora deixando a maleta para trás </p>
+            <p> Duas semanas depois você está em um bar e ao olhar para a TV sente um frio na espinha. </p>
+            <p>Você vê nos jornais que um grupo terrorista conseguiu tudo o que precisava para hackear os sistemas de
+                segurança de 5 países que possuíam ogivas nucleares.
+                Dentre os terroristas, a foto do homem calvo de rosto horrível. Bombas caem por toda parte. </p>
+            <p>O mundo está acabando e <strong>a culpa é sua.</strong></p>
+
+
+            <button class="btn-proximo" data-proximo="17">Créditos</button>
+            <button class="btn-proximo" data-proximo="0">Voltar ao início</button>
+        </div>
+
+        <div class="passo" id="passo-15">
+            <img src="images/passo-15-passaporte.jpg" width="700" height="500">
+            <p> Ao abrir a maleta você encontra: </p>
+            <ul>
+                <li>Passaporte; </li>
+                <li>Passagem para as Bahamas;</li>
+                <li>Uma quantidade obscena de dinheiro. </li>
+            </ul>
+            <br>
+            <button class="btn-proximo" data-proximo="16">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-16">
+            <img src="images/bomb.jpg" width="700" height="500">
+            <p> Duas semanas se passaram e você está nas Bahamas, deitado em areias branquinhas em frente ao mar mais
+                azul que já viu na vida. Ao longe sobem fumaças em formato de cogumelo. </p>
+            <p> Você tenta aproveitar cada momento dessa experiência que sabe que será curta. Você viu nos jornais que
+                um grupo terrorista conseguiu tudo o que precisava para hackear os sistemas de segurança de 5 países que
+                possuíam ogivas nucleares. </p>
+            <p>Dentre os terroristas, a foto do homem calvo de rosto horrível. Bombas caem por toda parte. </p>
+            <p>O mundo está acabando e <strong>a culpa é sua.</strong></p>
+            <button class="btn-proximo" data-proximo="17">Créditos</button>
+            <button class="btn-proximo" data-proximo="0">Voltar ao início</button>
+        </div>
+
+        <div class="passo" id="passo-17">
+            <h1>ACORDADO</h1>
+            <img src="images/classifica_16.jpg" width="320" height="160">
+            <p> <em>Acordado</em> é um jogo de escolhas criado no ano de 2024 para a disciplina de Tecnologia. </p>
+            <p> O código fonte foi desenvolvido utilizando HTML, CSS e Javascript. </p>
+            <p> As imagens utilizadas são meramente ilustrativas. </p>
+            <p> Em caso de dúvidas, entre em contato com ...</p>
+
+            <button class="btn-proximo" data-proximo="0">Voltar ao início</button>
+        </div>
+
+        <div class="passo" id="passo-18">
+            <img src="images/corredor2.jpg" width="700" height="500">
+            <p> Você se levanta e começa a caminhar, segura a maçaneta e abre a porta.</p>
+            <p> Neste exato momento a luz do corredor se apaga. Você acha estranho, mas continua a caminhar em direção
+                ao quarto do outro lado do corredor. </p>
+            <p> Agora você está em pé, em frente à porta do quarto. Seu primo continua a te chamar. Você percebe que sua
+                voz está um pouco trêmula. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="20"> Abre a porta e entra </button>
+            <button class="btn-proximo" data-proximo="19">Acha melhor voltar para o quarto</button>
+        </div>
+
+        <div class="passo" id="passo-20">
+            <img src="images/criança.jpg" width="500" height="300">
+            <p> Ao entrar no quarto, seu priminho está encolhido sob as cobertas. Parece estar apavorado!</p>
+            <p> Você pergunta o que aconteceu e ele, tremendo de terror, responde: "Acho que tem um monstro embaixo da
+                minha cama!</p>
+            <p> Você tenta acalmá-lo dizendo que monstros não existem, mas ele continua aterrorizado e insiste que está
+                sentindo o monstro sob seu colchão. </p>
+            <p> Após alguns instantes, você começa a ouvir uma respiração ofegante vindo debaixo da cama. O que você
+                faz?</p>
+            <button class="btn-proximo" data-proximo="21"> Olha embaixo da cama </button>
+            <button class="btn-proximo" data-proximo="19"> Ignora o som e diz que vai buscar um copo d'água para
+                acalmá-lo. </button>
+        </div>
+
+        <div class="passo" id="passo-19">
+            <img src="images/monstro.jpg" width="500" height="300">
+            <p> Ao se virar, uma figura horrível surge em sua frente.</p>
+            <p> "Quando eu chamar, você atende!", diz ela. </p>
+            <p> Você se sente apavorado, mas não por muito tempo. De forma abrupta, tudo ao seu redor escurece.</p>
+            <p>Você morreu!</p>
+            <button class="btn-proximo" data-proximo="17">Créditos</button>
+            <button class="btn-proximo" data-proximo="0">Voltar ao início</button>
+        </div>
+
+        <div class="passo" id="passo-21">
+            <img src="images/criança2.jpg" width="500" height="300">
+            <p> Um pouco apreensivo, você se ajoelha, inclina o corpo e olha embaixo da cama do seu primo.</p>
+            <p> Para sua surpresa, seu primo está lá! Seus olhos arregalados de pavor e com um sussuro ele diz: </p>
+            <p> "Tem um monstro em cima da minha cama!"</p>
+
+            <button class="btn-proximo" data-proximo="17">Créditos</button>
+            <button class="btn-proximo" data-proximo="0">Voltar ao início</button>
+        </div>
+
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

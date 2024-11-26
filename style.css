@@ -1,0 +1,130 @@
+h1 {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    text-align: center;
+    color: #555555
+}
+
+body {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #000000;
+    font-size: 20px;
+    color: #cccccc
+}
+
+button{
+    font-family: "Inria Sans", sans-serif;
+    font-size: 16px;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+
+div{
+    text-align: center;
+    margin: 40px;
+    padding: 20px;
+}
+
+div#passo-0 {
+    background-color: #17191A; 
+}
+
+div#passo-1 {
+    background-color: #1a1a26;    
+}
+
+div#passo-2 {
+    background-color: #000000;
+}
+
+div#passo-3 {
+    background-color: #28100c;
+}
+
+div#passo-4 {
+    background-color: #282625;
+}
+
+div#passo-5 {
+    background-color: #1a1a26;    
+}
+
+div#passo-6 {
+    background-color: #000000;
+}
+
+div#passo-7 {
+    background-color: #282625;
+}
+
+div#passo-8 {
+    background-color: #17191A;
+}
+
+div#passo-9 {
+    background-color: #28100C;    
+}
+
+div#passo-10 {
+    background-color: #000000;
+}
+
+div#passo-11 {
+    background-color: #000000;
+}
+
+div#passo-12 {
+    background-color: #28100C;
+}
+
+div#passo-13 {
+    background-color: #1B0201;    
+}
+
+div#passo-14 {
+    background-color: #17191A;
+}
+
+div#passo-15 {
+    background-color: #17191A;
+}
+
+div#passo-16 {
+    background-color: #282625;
+}
+
+div#passo-17 {
+    background-color: #28100C;
+}
+
+div#passo-18 {
+    background-color: #282625;
+}
+div#passo-19 {
+    background-color: #28100C;
+}
+div#passo-20 {
+    background-color: #28100C;
+}
+div#passo-21 {
+    background-color: #1B0201;
+}
+/* Paleta de cores
+#17191A	(23,25,26) AzulCinza
+#282625	(40,38,37) Cinza
+#1A1A26	(26,26,38) AzulRoxo
+#28100C	(40,16,12) Carmin
+#1B0201	(27,02,01) Vinho
+#1A1E1A (26,30,26) Verde
+*/
